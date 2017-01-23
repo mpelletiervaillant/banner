@@ -37,10 +37,17 @@ html {
   width: 100%;
 }
 
-@media only screen and (min-width: 52em) {
+@media only screen and (min-width: 60em) {
 
-  .img-flex {
-    max-height: 500px;
+  .banner {
+    max-height: 460px;
     overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    max-height: 475px;
   }
 }
